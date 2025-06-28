@@ -1,53 +1,67 @@
+/* Joker.css */
+
 .joker-container {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
+  background-color: white;
   padding: 40px;
-  background: linear-gradient(to right, #f9f9f9, #e0eaff);
-  min-height: 100vh;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 
 .joker-container h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
   color: #333;
-  margin-bottom: 30px;
 }
 
 .joke-button {
-  background-color: #6a5acd;
+  background-color: #5e35b1;
   color: white;
-  padding: 12px 25px;
+  padding: 12px 24px;
   border: none;
   border-radius: 8px;
+  font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+  transition: background-color 0.3s;
+  border: 1px solid white;
 }
 
 .joke-button:hover {
-  background-color: #4b3bbd;
+  background-color: #4527a0;
 }
 
 .joke-box {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #fff;
-  border: 2px solid #6a5acd;
-  border-radius: 10px;
-  max-width: 600px;
-  height: 200px; /* ✅ fixed height */
-  overflow-y: auto; /* ✅ scroll if content is long */
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fefefe;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d1c4e9;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-
 .joke-box h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #222;
+  margin-bottom: 10px;
 }
 
 .joke-box p {
-  font-size: 1.2rem;
   color: #555;
+  font-size: 1rem;
 }
