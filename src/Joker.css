@@ -65,3 +65,55 @@
   color: #555;
   font-size: 1rem;
 }
+/* ========== MEDIA QUERIES ========== */
+
+/* 📱 Phones (max-width: 600px) */
+@media (max-width: 600px) {
+  .joker-container {
+    padding: 20px;
+    min-height: 400px;
+    width: 90%;
+    border-radius: 12px;
+  }
+
+  .joker-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .joke-button {
+    font-size: 0.9rem;
+    padding: 10px 18px;
+  }
+
+  .joke-box h3 {
+    font-size: 1rem;
+  }
+
+  .joke-box p {
+    font-size: 0.9rem;
+  }
+}
+
+/* 💻 Tablets (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .joker-container {
+    padding: 30px;
+    width: 85%;
+  }
+
+  .joker-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .joke-button {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}
+
+/* 🖥️ Laptops (1025px and up) */
+@media (min-width: 1025px) {
+  .joker-container {
+    max-width: 600px;
+  }
+}
