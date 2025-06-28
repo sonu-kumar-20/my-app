@@ -20,3 +20,32 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+/* index.css */
+
+/* 🔽 Mobile (phones) */
+@media (max-width: 600px) {
+  html, body {
+    padding: 10px;
+    font-size: 14px;
+    align-items: flex-start; /* if you want content to be top-centered */
+  }
+
+  #root {
+    padding-top: 30px;
+    flex-direction: column;
+  }
+}
+
+/* 💻 Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  html, body {
+    font-size: 15px;
+  }
+}
+
+/* 🖥️ Laptops and up */
+@media (min-width: 1025px) {
+  html, body {
+    font-size: 16px;
+  }
+}
