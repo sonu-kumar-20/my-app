@@ -1,0 +1,53 @@
+.joker-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(to right, #f9f9f9, #e0eaff);
+  min-height: 100vh;
+}
+
+.joker-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.joke-button {
+  background-color: #6a5acd;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.joke-button:hover {
+  background-color: #4b3bbd;
+}
+
+.joke-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #6a5acd;
+  border-radius: 10px;
+  max-width: 600px;
+  height: 200px; /* ✅ fixed height */
+  overflow-y: auto; /* ✅ scroll if content is long */
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.joke-box h3 {
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.joke-box p {
+  font-size: 1.2rem;
+  color: #555;
+}
