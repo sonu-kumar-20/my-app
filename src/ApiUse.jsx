@@ -20,17 +20,18 @@ const Joker = () => {
 
   return (
     <div className="joker-container">
-      <h1>😂 Joker Zone</h1>
-      <button className="joke-button" onClick={getNewJoke}>
-        Tell Me a Joke!
-      </button>
-
+      <h1> Joker😂Zone</h1>
+     
       {joke && (
         <div className="joke-box">
           <h3>{joke.setup}</h3>
           <p>{joke.punchline}</p>
         </div>
       )}
+       <button className="joke-button" onClick={getNewJoke}>
+        Tell Me a Joke!
+      </button>
+
     </div>
   );
 };
